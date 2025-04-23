@@ -2,7 +2,7 @@
 A **News Agent** that provides users with up-to-date news summaries and context-aware answers. It leverages embedding-based retrieval for efficiency, LLM-powered summarization for clarity, and multi-modal I/O (voice/text) for accessibility.
 
 ---
-## Features Observed
+## Features
 
 - **Transformer-based Embeddings**: Uses `SentenceTransformer('all-MiniLM-L6-v2')` to encode text into 384-dimensional vectors.
 - **FAISS Vector Store**: Integrates `faiss.IndexFlatL2` for efficient similarity search and persistence of vector indices.
