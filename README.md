@@ -22,14 +22,14 @@ A **News Agent** that provides users with up-to-date news summaries and context-
 
 | Component             | Technology/Library                       | Purpose                                                |
 |-----------------------|------------------------------------------|--------------------------------------------------------|
-| Embedding Model       | Sentence Transformers (all-MiniLM-L6-v2) | Converts text to dense vectors for semantic search     |
-| Vector Database       | FAISS                                    | Efficient similarity search over embeddings            |
-| LLM API               | Gemini API                               | Summarization, question answering, validation          |
-| News/Web Search       | SerpAPI (Google News)                    | Fetches real-time news articles                        |
-| Web Scraping          | BeautifulSoup                            | Extracts full article text from news URLs              |
-| Voice Recognition     | SpeechRecognition, pyttsx3               | Enables voice input/output                             |
-| Environment Management| python-dotenv                            | Loads API keys and config from .env                    |
-| Data Persistence      | pickle                                   | Saves/reloads vector DB and documents                  |
+| Embedding Model       | Sentence Transformers ([all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)) | Converts text to dense vectors for semantic search     |
+| Vector Database       | [FAISS](https://faiss.ai/)                                    | Efficient similarity search over embeddings            |
+| LLM API               | [Gemini API](https://ai.google.dev/)                               | Summarization, question answering, validation          |
+| News/Web Search       | [SerpAPI](https://serpapi.com/) (Google News)                    | Fetches real-time news articles                        |
+| Web Scraping          | [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)                            | Extracts full article text from news URLs              |
+| Voice Recognition     | SpeechRecognition, [pyttsx3](https://github.com/nateshmbhat/pyttsx3)               | Enables voice input/output                             |
+| Environment Management| [python-dotenv](https://github.com/theskumar/python-dotenv)                            | Loads API keys and config from .env                    |
+| Data Persistence      | [pickle](https://docs.python.org/3/library/pickle.html)                                   | Saves/reloads vector DB and documents                  |
 
 
 ## Processes & Techniques
